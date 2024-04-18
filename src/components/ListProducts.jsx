@@ -10,7 +10,7 @@ const ListProducts = () => {
   const navigate = useNavigate();
   const getProducts = useCallback(async (word) => {
     try {
-      const route = `https://api-bazar-zfls.onrender.com/api/products/search?title=${word}`;
+      const route = `https://api-bazar-rkz3.onrender.com/api/products/search?title=${word}`;
       const res = await axios.get(route);
       const responseData = res.data;
 

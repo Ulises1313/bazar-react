@@ -8,7 +8,7 @@ const DetalleProducto = () => {
 
   const getProduct = useCallback(async () => {
     try {
-      let route = `https://api-bazar-zfls.onrender.com/api/products/${id}`;
+      let route = `https://api-bazar-rkz3.onrender.com/api/products/${id}`;
       const res = await axios.get(route);
       setProduct(res.data);
     } catch (error) {
